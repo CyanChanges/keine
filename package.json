@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-keine",
-  "description": "Plugin hider for Koishi and cordis",
-  "version": "0.0.1",
+  "description": "Isolated plugin context for Koishi",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -11,11 +11,17 @@
   "license": "MIT",
   "scripts": {},
   "keywords": [
-    "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "cordis",
+    "keine",
+    "hider",
+    "isolated"
   ],
   "peerDependencies": {
-    "koishi": "^4.14.2"
+    "koishi": "^4.15.1"
+  },
+  "dependencies": {
+    "cordis2": "1.0.1"
   }
 }
